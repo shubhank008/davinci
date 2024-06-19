@@ -653,7 +653,7 @@ public class Davinci : MonoBehaviour
         catch (Exception ex)
         {
             if (ENABLE_GLOBAL_LOGS)
-                Debug.LogError($"[Davinci] Error while removing cached file: {ex.Message}");
+                Debug.Log($"[Davinci] Error while removing cached file: {ex.Message}");
         }
     }
 }
